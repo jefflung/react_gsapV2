@@ -1,0 +1,24 @@
+{
+  "name": "creativeblo_react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animated": "^0.2.2",
+    "bodymovin": "^4.13.0",
+    "gsap": "^1.20.3",
+    "react": "^16.2.0",
+    "react-bodymovin": "^1.1.1",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "react-spring": "^4.0.4",
+    "react-transition-group": "^2.2.1",
+    "react-web-animation": "^0.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

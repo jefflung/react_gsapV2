@@ -1,0 +1,114 @@
+.wrapper {
+	/*margin: 0px auto;*/
+	float: right;
+  height: 353px;
+	width: 180px;
+}
+
+.phone {
+	pointer-events: none;
+	position: relative;
+	z-index: 10;
+	/*width: 100%;*/
+	width:180px;
+	height: 353px;
+
+}
+
+figure {
+	position: relative;
+	display: block;
+	/*overflow: hidden;*/
+	width:145px;
+}
+
+
+
+#jelly {
+	position: absolute;
+	/*width: 100%;*/
+	width: 180px;
+	top: 0;
+	/*right: 0;*/
+	/*flip jelly*/
+	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+a {
+
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: grey;
+}
+
+
+
+.profile {
+	border-radius: 50%;
+	z-index: 8;
+	position: absolute;
+	/*background-image: url("http://bramvdijk.nl/jelly/profile.svg");*/
+	background-size: cover;
+	background-position: 40%;
+	background-repeat: no-repeat;
+	top:20%;
+	/*left:-20%;*/
+	left:-80%;
+	width: 30%;
+	height: 15%;
+	background-color: white;
+
+}
+
+.list {
+	z-index: 9;
+	position: absolute;
+	top: 40%;
+	left:-20%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+li {
+	padding-bottom: 40%;
+	list-style-type: none;
+
+
+}
+#menu {
+	width: 15px;
+    height: 5%;
+    position: absolute;
+    top: 14%;
+    right: 7.3%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#back {
+	display: none;
+	width: 15px;
+    height: 5%;
+    position: absolute;
+    top: 14%;
+    right: 22.3%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.content {
+	position: absolute;
+	float: left;
+}
+
+svg{ width: 100%; height: 100%; }
